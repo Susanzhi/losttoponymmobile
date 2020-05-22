@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/suggestion/suggestion",
+    "pages/regeocoding/regeocoding",
+    "pages/weather/weather",
+    "pages/story/story"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "南京历史地名",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#4db900",
+    "backgroundColor": "#fbfbfd",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "img/search.png",
+        "selectedIconPath": "img/search.png",
+        "text": "地名查询"
+      },
+      {
+        "pagePath": "pages/suggestion/suggestion",
+        "iconPath": "img/story.png",
+        "selectedIconPath": "img/story.png",
+        "text": "地名故事"
+      },
+      {
+        "pagePath": "pages/regeocoding/regeocoding",
+        "iconPath": "img/map.png",
+        "selectedIconPath": "img/map.png",
+        "text": "地名图集"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "iconPath": "img/null.png",
+        "selectedIconPath": "img/null.png",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序界面展示"
+    }
+  }
+}

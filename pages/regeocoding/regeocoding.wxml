@@ -1,0 +1,42 @@
+<view class="page-body">
+<view class="toponym-head">
+  <view class="toponym-head-text">
+    <text>- 南京城墙十三门- </text>
+  </view>
+</view>
+<view class="toponym-head1">
+  <view class="image">
+    <image class="image" src="../../img/gatephoto.jpg" mode="scaleToFill" bindtap="previewImg"></image>
+  </view>
+  <view class="toponym-text1">
+    <text class='toponym-text1'>三山聚宝临通济，正阳朝阳定太平; \n 神策金川近钟阜，仪凤定淮清石城。</text>
+  </view>
+</view>
+
+  <view class="page-section page-section-gap">
+   <view class="toponym-head">
+    <view class="toponym-head-text">
+    <text>专题地图</text>
+    </view>
+    <map
+      id="myMap"
+      subkey="DXCBZ-WV23K-FWYJM-AOL5N-TQOEO-VMFA2"
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      show-location
+    ></map>
+    <view class="btn-area">
+    <button bindtap="jumpBtn" class="btn2">
+    <image class='btnImg' src='../../img/men.png'></image>
+    <view>切换图层</view>
+    </button>
+    <button bindtap="includePoints" class="btn1">
+    <image class='btnImg' src='../../img/fullview.png'></image>
+    <view>显示全图</view>
+    </button>
+  </view>
+  </view>
+  </view>
+</view>

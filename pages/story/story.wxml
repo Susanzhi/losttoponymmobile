@@ -1,0 +1,97 @@
+<view class="toponym-head">
+  <view class="toponym-head-text">
+    <text>地名故事</text>
+  </view>
+</view>
+<view class="image">
+    <image class="image" src="../../img/changganli.jpg" mode="scaleToFill" bindtap="previewImg"></image>
+</view>
+<view class="toponym-class">
+  <view class="toponym-class-text">
+    <text>- 长干里</text>
+  </view>
+</view>
+<view class="toponym">
+  <view class="toponym-text1">
+    <text>位于南京市秦淮区内秦淮河以南至雨花台以北，是中国古代著名的地名，是江南佛教圣地，素有“佛陀里”之美誉。
+ </text>
+  </view>
+</view>
+<view class="triangle">
+    <image src='../../img/tri.png' class="triangle-image"></image>
+</view>
+<view class="toponym-head-text1">
+    <text>— 地名起源 —</text>
+</view>
+<view class="qiyuan-head">
+  <view class="qiyuan-text">早在春秋战国时代，长干里一带已是人烟稠密之地。《至正金陵新志》说，“长干里，在秦淮南，越范蟸筑城长干。
+  </view>
+</view>
+<view class="triangle">
+    <image src='../../img/tri.png' class="triangle-image"></image>
+  </view>
+<view class="toponym-head-text1">
+    <text>— 演化过程 —</text>
+</view>
+<view name="yanhua">
+  <view class="yanhua-head-text">
+    <text>春秋战国</text>
+  </view>
+  <view class="yanhua-text">
+    <text>“长干里，在秦淮南，越范蟸筑城于长干。” </text>
+  </view>
+   <view class="yanhua-head-text">
+    <text>唐</text>
+  </view>
+  <view class="yanhua-text">
+    <text>“山陇之间曰‘干’，建业南五里有山冈，其间平地，庶民杂居。有大长干、小长干、东长干，并是地里名。小长干，在瓦官南巷，西头出。”</text>
+  </view>
+ <view class="yanhua-head-text">
+    <text>明</text>
+  </view>
+  <view class="yanhua-text">
+    <text>       到了明代，长干里形成了两个专业分工很强的集市。一是以经营粮食及副产品为主的大市，一是以经营竹木炭薪为主的来宾街市。这条街和集市的名称，以坐落于此的国家级宾馆“来宾楼”而得名。此楼主要接待外国商人。
+  </text>
+  </view>
+</view>
+<view name="chuanshuo">
+  <view class="triangle">
+    <image src='../../img/tri.png' class="triangle-image"></image>
+  </view>
+  <view class="toponym-head-text1">
+  <text>—相关传说—</text>
+  </view>
+  <view class="chuanshuo-back">
+    <view class="chuanshuo-text">
+      <text>据史料记载，李白曾多次到金陵游历。一次，他到长干里闲游漫步，看见两个四五岁大小、住在一条小巷里的小孩子一起嬉戏，小男孩手拿一根数尺长的竹竿放在胯下当马骑，飞快地从小巷的这一头跑到那一头，嘴里还不住地念到：“大马快跑！大马快跑！”小姑娘拍着手叫：“你的大马真快！”小男孩听到小姑娘的赞美，又得意地手拿竹竿，在巷子里骑了好几个来回，而小姑娘则背倚着家门，笑盈盈地看着小男孩为了取悦自己在巷子里来回地驰骋。接着，两个人又玩起了抛青梅的游戏。李白见此情景有感而发，遂有了这曲脍炙人口的《长干行》。</text>
+    </view>
+  </view>
+</view>
+<view name="xiangguanderen">
+  <view class="triangle">
+    <image src='../../img/tri.png' class="triangle-image"></image>
+  </view>
+  <view class="toponym-head-text1">
+    <text>— 相关的人 —</text>
+  </view>
+  <view class="people-back">
+    <view class="triangle">
+      <image src='../../img/fanli.jpg' class="people"></image>
+    </view>
+    <view class="yanhua-head-text">
+      <text>范蠡</text>
+    </view>
+    <view class="yanhua-text">
+      <text>元前472年，越王勾践命范蠡在南京秦淮河之南约830米处筑城，城周长约1.2公里，面积约0.94平方公里。后称越城，又名范蠡城。 它是南京历史上第一座有确切年代可考的军事性质的古城，被公认为南京城市的开端。 </text>
+    </view>
+  </view>
+</view>
+<view name="poem">
+  <view class="triangle">
+    <image src='../../img/tri.png' class="triangle-image"></image>
+  </view>
+  <view class="toponym-head-text1">
+    <text>— 相关诗词 —</text>
+  </view>
+  
+</view>

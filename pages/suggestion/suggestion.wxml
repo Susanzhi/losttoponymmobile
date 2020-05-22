@@ -1,0 +1,56 @@
+<view class="image">
+  <image class="image" src="../../img/photo.png" mode="scaleToFill" bindtap="previewImg"></image>
+</view>
+<view class="column">
+  <button class="column-toponym">地名专栏</button>
+  <view class="column-rule">
+    <text>|</text>
+  </view>
+  <button class="column-story">故事专栏</button>
+</view>
+
+<view class="section">
+  <input placeholder="输入关键字"  type="text" bindinput="bindKeyInput"/>
+</view>
+
+<view class="sug_info">
+  <text>{{sugData}}</text>
+</view>
+
+<view class="toponym-head">
+  <view class="toponym-head-text">
+    <text>- 地名 -</text>
+  </view>
+</view>
+
+<view class="toponym-class">
+  <view class="toponym-class-text">
+    <text>- 秦淮区</text>
+  </view>
+</view>
+
+<view class="toponym">
+  <view class="toponym-text1">
+    <text>夫子庙 乌衣巷 成贤街 </text>
+  </view>
+  <view class="toponym-text2">
+    <text>新街口 孝陵卫 </text>
+  </view>
+</view>
+
+<view class="story-head">
+  <view class="story-head-text">
+    <text>- 故事 -</text>
+  </view>
+</view>
+
+<view class="story">
+  <navigator url="../story/story">
+    <view class="story-text1">
+       <text>自古金陵道，诗意长干里---长干里</text>
+    </view>
+  </navigator>
+  <view class="story-text2">
+    <text>河水之中向东流，洛阳女儿名莫愁---莫愁湖</text>
+  </view>
+</view>
